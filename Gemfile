@@ -21,7 +21,11 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'react-rails', '~> 1.5.0'
+# gem 'react-rails', '~> 1.6.0'
+gem 'devise'
+
+# Medidata gems
+gem 'sandman-rails', git: 'git@github.com:mdsol/sandman-rails.git', tag: '0.5.11'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
