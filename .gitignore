@@ -11,3 +11,11 @@
 /log/*
 !/log/.keep
 /tmp
+.DS_Store
+/node_modules/
+*.swp
+/.idea/*
+!/.idea/codeStyleSettings.xml
+*.log
+*~
+*.zip
